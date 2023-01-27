@@ -1,0 +1,457 @@
+html, body {
+  font-size:100%;
+  
+}
+
+
+.all-questions {
+
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom:15px;
+
+}
+
+.all-questions p{
+
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vw;
+
+}
+
+.all-questions h3{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2.5vw;
+}
+
+.question-one{
+  border: 3px dashed #FFFFFF;
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B1B2FF;
+  display:flex;
+}
+
+
+.question-two{
+    border: 3px dashed #FFFFFF;
+    margin-top: 50px;
+
+    background-color: #B1B2FF;
+
+
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+  }
+
+  .question-three{
+    border: 3px dashed #FFFFFF;
+    margin-top: 50px;
+
+    background-color: #B1B2FF;
+
+
+    align-items: center;
+    justify-content: center;
+    display:flex;
+  }
+
+  .question-four{
+    border: 3px dashed #FFFFFF;
+    margin-top: 50px;
+
+    background-color: #B1B2FF;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .question-five{
+    border: 3px dashed #FFFFFF;
+    margin-top: 50px;
+
+    background-color: #B1B2FF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+.question-one p{
+  margin-left: 10px;
+  margin-right:10px;
+}
+
+.nav-bar{
+  position: fixed;
+  overflow: hidden;
+  top:0;
+  width: 100%;
+}
+
+.nav-bar ul {
+  font-size: 1.5vw;
+  font-family: 'Staatliches', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b8b5ff;
+  text-align: center;
+
+
+}
+
+.nav-bar li {
+float: center;
+display: inline-block;
+}
+
+li a {
+display: inline-block;
+color: white;
+text-align: center;
+font-size: 3vw;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #FFFFFF;
+color: #b8b5ff
+}
+
+.welcome{
+  padding-top: 200px;
+  padding-bottom: 10%;
+
+}
+
+
+.title{
+  font-size:9vw;
+}
+
+.subtitle{
+  padding-bottom: 10px;
+  font-size:3.5vw;
+}
+
+.link{
+  padding: 12px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.5vw;
+  color: #ADA2FF;
+  background-color: #FFFFFF;
+  border: 3px solid #ADA2FF;
+}
+
+.description{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.welcome{
+  height: 100%;
+}
+
+hr{
+  width: 4%;
+  border: dotted #FFFFFF 6px;
+  border-bottom: none;
+  margin: 100px auto;
+
+
+}
+
+body{
+ background-image: url("ombre.jpeg");
+ background-size: cover;
+ background-size: 100%;
+
+}
+
+h1{
+  font-family: 'Staatliches', cursive;
+  color: #FFFFFF;
+}
+
+h2{
+  font-family: 'Staatliches', cursive;
+  font-size:3.5vw;
+  color: #FFFFFF;
+
+
+}
+
+h3{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: #FFFFFF;
+  font-size:2.7vw;
+
+}
+p{
+  font-family: 'Signika Negative', sans-serif;
+  color: #FFFFFF;
+  font-size:1.6vw;
+
+
+
+}
+
+.about h2{
+  font-size: 5vw;
+
+}
+
+.about p{
+  font-size: 3.2vw;
+}
+
+.about{
+  position:relative;
+  border: 3px dashed #FFFFFF;
+  margin-right:10%;
+  margin-left: 10%;
+  padding-bottom: 50px;
+  background-color: #B1B2FF;
+}
+
+.FAQ{
+  position:relative;
+  border: 3px dashed #FFFFFF;
+  margin-right:10%;
+  margin-left: 10%;
+
+  background-color: #B1B2FF;
+  padding-left:70px;
+  padding-right:70px;
+}
+
+.FAQ h2{
+  font-size: 5vw;
+
+}
+
+.FAQ p{
+  font-size: 3.2vw;
+}
+
+.FAQ h3{
+
+  font-size: 3.7vw;
+}
+
+.Sponsoring{
+
+  border: 3px dashed #FFFFFF;
+  margin-right:10%;
+  margin-left: 10%;
+  background-color: #B1B2FF;
+  margin-bottom: 40px;
+
+
+
+}
+
+.Sponsoring h2{
+  font-size: 5vw;
+
+}
+
+.Sponsoring p{
+  font-size: 3.2vw;
+}
+
+.org{
+  border: 3px dashed #FFFFFF;
+  margin-right:100px;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+
+a{
+   font-family: 'Signika Negative', sans-serif;
+  color: #FFFFFF;
+  font-size: 3vw;
+}
+
+
+
+@media only screen and (min-width: 900px){
+
+  .FAQ{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .all-questions h3{
+    font-size: 1.3vw;
+  }
+
+  .FAQ h2{
+    font-size: 2.5vw;
+
+  }
+
+  li a {
+  font-size: 1.5vw;
+
+  }
+  .title{
+    font-size:6vw;
+  }
+
+  .subtitle{
+    padding-bottom: 10px;
+    font-size:2.6vw;
+  }
+
+  .link{
+    font-size: 2.6vw;
+  }
+
+  h2{
+    font-family: 'Staatliches', cursive;
+    font-size:3vw;
+    color: #FFFFFF;
+
+
+  }
+
+  a{
+    font-size: 1.6vw;
+  }
+
+  h3{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #FFFFFF;
+    font-size:2.7vw;
+
+  }
+  p{
+    font-family: 'Signika Negative', sans-serif;
+    color: #FFFFFF;
+    font-size:1vw;
+
+  }
+
+  .about h2{
+    font-size: 2.5vw;
+
+  }
+
+  .about p{
+    font-size: 1.5vw;
+  }
+
+  .all-questions p{
+    font-size: 1.1vw;
+  }
+
+
+
+
+  .Sponsoring h2{
+    font-size: 3vw;
+
+  }
+
+  .Sponsoring p{
+    font-size: 2vw;
+  }
+
+  .all-questions {
+    display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .all-questions p{
+
+    margin-left: 7%;
+    margin-right: 7%;
+
+  }
+
+  .all-questions h3{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .question-one{
+    border: 3px dashed #FFFFFF;
+    margin-top: 50px;
+    width:18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B1B2FF;
+  }
+
+
+  .question-two{
+      border: 3px dashed #FFFFFF;
+      margin-top: 50px;
+      width:18%;
+      background-color: #B1B2FF;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .question-three{
+      border: 3px dashed #FFFFFF;
+      margin-top: 50px;
+      width:18%;
+      background-color: #B1B2FF;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .question-four{
+      border: 3px dashed #FFFFFF;
+      margin-top: 50px;
+      width:18%;
+      background-color: #B1B2FF;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .question-five{
+      border: 3px dashed #FFFFFF;
+      margin-top: 50px;
+      width:18%;
+      background-color: #B1B2FF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+
+
+
+
+
+}
